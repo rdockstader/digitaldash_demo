@@ -1,0 +1,95 @@
+/* ------------------------------------- */
+/* big tablet - 1200px: from 1024-1200px */
+/* ------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    h1 { font-size: 300% !important; }
+    .jumbotron-text { padding-top: 20%;}
+    .works-steps {
+        width: 100%;
+        padding-top: 50px;
+    }
+    .steps-box {
+        width: 90%;
+        padding-left: 10%;
+    }
+}
+
+
+
+/* ------------------------------------------- */
+/* Small tablet - bit tablets: from 767-1023px */
+/* ------------------------------------------- */
+@media only screen and (max-width: 1023px) {
+    .map {
+    height: 400px;
+    
+    }
+    h2 {
+        font-size: 200%;
+    }
+    
+}
+
+
+
+/* -------------------------------------------- */
+/* Small Phones - small tablets: from 481-767px */
+/* -------------------------------------------- */
+@media only screen and (max-width: 767px) {
+    .jumbotron-text { padding-top: 10%;}
+    .navbar-header {width: 20%; float: left;}
+    .lead {font-size: 80% !important;}
+    h1 { font-size: 200% !important; }
+    .nav-menu-items { padding-right: 0;}
+    .hidden-on-phone {
+        display: none;
+    }
+    .memory-img {
+        padding: 70px;
+        border-radius: 5px;
+    }
+    .map {
+    height: 300px;
+    
+    }
+    .steps-box {
+        font-size: 120%;
+    }
+    .steps-box div {
+        font-size: 150%;
+        width: 50px;
+    }
+    
+}
+
+/* -------------------------- */
+/* Small Phones: from 0-480px */
+/* -------------------------- */
+@media only screen and (max-width: 480px) {
+    p.lead { display: none;}
+    h1 { font-size: 120% !important; }
+    .jumbotron-text { padding-top: 10px;}
+    .nav-menu-items { display: none; }
+    #main-nav { min-height: 30px; }
+    #nav-container { height: 30px;}
+    #nav-container div { height: 30px;}
+    #nav-container div a { height: 30px; padding: 5px;}
+    nav i { font-size: 90%;}
+    .btn {
+        height: 25px;
+        width: 70px;
+        font-size: 49%;
+    }
+    .memory-img {
+        padding: 50px;
+        border-radius: 5px;
+    }
+    .map {
+    height: 200px;
+    
+    }
+    .works-video {
+        display: none;
+        
+    } 
+}
